@@ -1,0 +1,133 @@
+
+.glow1 {
+  font-size: 80px;
+  color: #f8f1f1;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #030dc8, 0 0 20px #0e08ac, 0 0 30px rgb(8, 44, 205), 0 0 40px #1300e6, 0 0 50px #0008e6, 0 0 60px #0f00e6, 0 0 70px #003de6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #de0101, 0 0 30px rgb(54, 6, 199) 77, 255, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.glow2 {
+  font-size: 80px;
+  
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+            body {
+              font-family: 'Times New Roman', Times, serif;
+         
+          margin: 0;
+          padding: 0;
+          background-color: rgba(184, 171, 34, 0.902) 233, 228, 0.902;
+          font-size: 23px;
+      }
+      header {
+      background-color: rgba(236, 150, 0, 0.973);
+      color: #000000;
+      padding: 1em;
+      text-align: center;
+      }
+      
+      nav ul {
+      list-style: none;
+      padding: 0;
+      Color: Black;
+      }
+      
+      nav li {
+      display: inline;
+      margin-right: 20px;
+      }
+      
+      nav a {
+      text-decoration: none;
+      color: #000000;
+      }
+      
+      .hero {
+      background-image: url('hero.jpg');
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 4em 0;
+      }
+      
+      .hero h2 {
+      font-size: 2.5em;
+      }
+      
+      .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      }
+      
+      .featured-cars {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 4em 0;
+      }
+      
+      .featured-cars article {
+      text-align: center;
+      }
+      
+      .footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+      }
+     
+          .dropbtn {
+      background-color: #3498DB;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+      }
+      
+      .dropdown {
+      position: relative;
+      display: inline-block;
+      }
+      
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #242222;
+      min-width: 200px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      }
+      
+      .dropdown-content a {
+      color: rgb(9, 114, 67);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+      
